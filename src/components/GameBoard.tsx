@@ -52,7 +52,7 @@ export function GameBoard() {
         newPosition = { x: Math.max(0, current.x - 1), y: current.y };
         break;
       case 'ArrowRight':
-        newPosition = { x: Math.min(9, current.x + 1), y: current.y };
+        newPosition = { x: Math.min(7, current.x + 1), y: current.y };
         break;
       case 'Enter':
       case ' ':
